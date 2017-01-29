@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Android Pattern Crack</title>
+
+		<link rel="stylesheet" type="text/css" href="styles/global.css">
+		<link rel="stylesheet" type="text/css" href="styles/index.css">
+
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!-- Loader and banners -->
+		<div id="loader_wrapper">
+			<h1 class="hidden"><span class="hidden">Android Pattern Crack</span></h1>
+		</div>
+		<div id="success_wrapper" class="not_displayed">
+			<h3>Success !</h1>
+		</div>
+		<div id="error_wrapper" class="not_displayed">
+			<h3>Error !</h1>
+		</div>
+
+		<!-- Page content -->
+		<div id="file_importer">
+			<h2>Import gesture.key</h2>
+			<input id="input_file_importer" type="file" accept=".key"/>
+		</div>
+		<div id="pattern_displayer">
+			<img src="resources/images/grid.png" alt="">
+			<canvas id="canvas" width="500" height="500"/></canvas>
+		</div>
+
+		<!-- Libs and scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="//code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+		<script type="text/javascript" src="scripts/loader.js"></script>
+		<script type="text/javascript" src="scripts/file_importer.js"></script>
+		<script type="text/javascript" src="scripts/file_reader.js"></script>
+		<script type="text/javascript" src="https://lovasoa.github.io/sql.js/js/sql.js"></script>
+		<script type="text/javascript" src="scripts/database_reader.js"></script>
+		<script type="text/javascript" src="scripts/pattern_displayer.js"></script>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+// FONTS //
+$font: Helvetica, Verdana;
+$font_size: 20px;
+
+// FILE IMPORTER SIZES //
+$file_importer_height: 170px;
+
+// FILE IMPORTER COLORS //
+$file_importer_text_color: white;
+$file_importer_background_color: #3498db;
+$file_importer_background_color_hover: #2084c7; 
+$file_importer_box_shadow: #545454;
+
+// PATTERN DISPLAYER COLORS //
+$pattern_displayer_background_color: #6C7A89;
+
+// LOADER COLORS //
+$failed-color: #e74c3c;
+$success-color: $file_importer_background_color_hover;
