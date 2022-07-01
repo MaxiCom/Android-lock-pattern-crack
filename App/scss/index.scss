@@ -88,7 +88,7 @@
 #error_wrapper {
 	background-color: $failed-color;
 
-	h3 {background-color: rgba($failed-color + 50, 0.4);}
+	h3 {background-color: rgba($failed-color, 0.4);}
 }
 
 #success_wrapper { background-color: $success-color; }

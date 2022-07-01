@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, Verdana;
+  font-size: 20px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.not_displayed {
+  display: none;
+}
+
+/*# sourceMappingURL=global.css.map */

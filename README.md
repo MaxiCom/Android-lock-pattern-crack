@@ -8,9 +8,9 @@ Pour décompresser la base de données:
 
     gzip -d /App/resources/database/rainbow.db.gz
     
-Pour génerer les fichiers css:
+Utiliser un serveur pour eviter les probleme de cors:
 
-    sass --watch scss:styles
+``` php -S 127.0.0.1:8080``` 
 
 # Screenshot 
 

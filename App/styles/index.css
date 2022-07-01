@@ -1,0 +1,74 @@
+#file_importer {
+  height: 170px;
+  line-height: 170px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  background-color: #3498db;
+  box-shadow: 0px 0px 3px 0.5px #545454;
+  z-index: 100;
+  transition: 0.1s background-color ease-in;
+}
+#file_importer input[type=file] {
+  display: none;
+}
+#file_importer:hover {
+  background-color: #2084c7;
+}
+
+#pattern_displayer {
+  position: relative;
+  flex: 1;
+  min-height: 500px;
+  background-color: #6C7A89;
+  text-align: center;
+}
+#pattern_displayer img, #pattern_displayer canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#pattern_displayer img {
+  width: 500px;
+  height: 500px;
+}
+
+#loader_wrapper, #success_wrapper, #error_wrapper {
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 1000;
+}
+#loader_wrapper h1, #loader_wrapper h3, #success_wrapper h1, #success_wrapper h3, #error_wrapper h1, #error_wrapper h3 {
+  width: 100%;
+  height: 190px;
+  line-height: 175px;
+  font-size: 4em;
+  color: white;
+  background-color: rgba(52, 152, 219, 0.4);
+  text-shadow: 3px 3px black;
+}
+
+#loader_wrapper {
+  display: flex;
+  background-color: #2084c7;
+}
+
+#error_wrapper {
+  background-color: #e74c3c;
+}
+#error_wrapper h3 {
+  background-color: rgba(231, 76, 60, 0.4);
+}
+
+#success_wrapper {
+  background-color: #2084c7;
+}
+
+/*# sourceMappingURL=index.css.map */
