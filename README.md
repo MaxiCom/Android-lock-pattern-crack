@@ -10,7 +10,7 @@ Pour décompresser la base de données:
 
 Pour accéder à la base de données:
 
-    sqlite3 rainbow.db
+    sqlite3 ./App/resources/database/rainbow.db
     SELECT * FROM RainbowTable;
     
 Utiliser un serveur pour eviter les probleme de cors:
